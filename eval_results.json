@@ -1,0 +1,1202 @@
+[
+  {
+    "config": "Dense-Only",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "What is the name of the new network architecture proposed in the paper?",
+    "ground_truth": "Transformer",
+    "answer": "AAR (Augmentation-Adapted Retriver)",
+    "score": 0
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "What does the Transformer model architecture replace recurrence and convolutions with?",
+    "ground_truth": "attention mechanisms",
+    "answer": "The Transformer model architecture replaces recurrence and convolutions with attention mechanisms.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "What is the BLEU score achieved by the model on the WMT 2014 English-to-German translation task?",
+    "ground_truth": "28.4",
+    "answer": "The BLEU score achieved by the model on the WMT 2014 English-to-German translation task is 28.4.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "How many layers does the encoder in the Transformer model have?",
+    "ground_truth": "6",
+    "answer": "The Transformer model has two layers: one for the encoder and one for the decoder.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "Which two types of sub-layers does each layer in the encoder and decoder stacks have?",
+    "ground_truth": "multi-head self-attention mechanism and a position-wise fully connected feed-forward network",
+    "answer": "Each layer in the encoder and decoder stacks has two sub-layers.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "What does BERT stand for?",
+    "ground_truth": "Bidirectional Encoder Representations from Transformers",
+    "answer": "BERT stands for \"Bert\", a pre-trained transformer network developed by Vaswani et al. (2017).",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "What is the GLUE score achieved by BERT?",
+    "ground_truth": "80.5%",
+    "answer": "The GLUE score achieved by BERT is 99.35.",
+    "score": 0
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "How does BERT improve fine-tuning approaches?",
+    "ground_truth": "By using a 'masked language model' pre-training objective",
+    "answer": "BERT improves fine-tuning approaches by using a cross-encoder, which allows it to learn from multiple sentences simultaneously, thereby improving its ability to predict the target value accurately.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "What are the two existing strategies for applying pre-trained language representations to downstream tasks?",
+    "ground_truth": "feature-based and fine-tuning",
+    "answer": "The two existing strategies for applying pre-trained language representations to downstream tasks are:\n\n1. Using a shallow concatenation of independently trained left-to-right and right-to-left LMs. This strategy reduces the need for many heavily-engineered task-specific architectures.\n\n2. Pre-training and fine-tuning with a denoising objective and various noise functions. This strategy obtains state-of-the-art results on a diverse set of generation tasks and outperforms comparably-sized T5 models.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "What is the SQuAD v1.1 question answering Test F1 score achieved by BERT?",
+    "ground_truth": "93.2",
+    "answer": "The SQuAD v1.1 question answering test F1 score achieved by BERT is 80%.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "What is the task of open-domain question answering?",
+    "ground_truth": "answers factoid questions using a large collection of documents",
+    "answer": "The task of open-domain question answering is to generate an answer based on the input text provided by the user. It involves providing an answer that is free from any preconceived notions or biases, and it should be able to accurately reflect the meaning of the input text.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "How much does the dense retriever outperform the Lucene-BM25 system in terms of top-20 passage retrieval accuracy?",
+    "ground_truth": "9%-19% absolute",
+    "answer": "The dense retriever outperforms the Lucene-BM25 system by achieving top-20 passage retrieval accuracy with a training batch size of 16.",
+    "score": 1
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "What is the dual-encoder framework's role in the dense representations?",
+    "ground_truth": "learn embeddings from a small number of questions and passages",
+    "answer": "The dual-encoder framework's role in the dense representations is to encode the input data into two separate layers, one for encoding the features and another for encoding the context information. This allows the network to learn more complex patterns and relationships between the input data and its output.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "What is the difference between sparse vector space models and dense, latent semantic encoding?",
+    "ground_truth": "Dense encodings can map synonyms or paraphrases to vectors close to each other, while sparse models match keywords efficiently with an inverted index",
+    "answer": "Sparse vector space models map tokens to vectors based on their frequency distribution, while dense, latent semantic encoding maps tokens to vectors based on their semantic meaning.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "How does the Dense Passage Retriever (DPR) compare to BM25 in Top-5 accuracy?",
+    "ground_truth": "65.2% vs. 42.9%",
+    "answer": "The Dense Passage Retriever (DPR) outperforms BM25 by a significant margin (65.2% vs. 42.9%), achieving a substantial improvement on the end-to-end QA accuracy compared to ORQA (41.5%).",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "What is the name of the collection of foundation language models introduced in the document?",
+    "ground_truth": "LLaMA",
+    "answer": "The collection of foundation language models introduced in the document is called \"language models.\"",
+    "score": 1
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "What is the range of parameters for the LLaMA models?",
+    "ground_truth": "from 7B to 65B parameters",
+    "answer": "The resulting models, called LLaMA , range from 7B to 65B parameters with competitive performance compared to the best existing LLMs.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "How does LLaMA-13B compare to GPT-3 in terms of performance on benchmarks?",
+    "ground_truth": "LLaMA-13B outperforms GPT-3 on most benchmarks",
+    "answer": "LLaMA-13B outperforms GPT-3 on most benchmarks despite being 10 \u0002smaller.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "What is the percentage of CommonCrawl data in the training set?",
+    "ground_truth": "67%",
+    "answer": "English CommonCrawl contains 67% of the data.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "Which models is LLaMA-65B competitive with?",
+    "ground_truth": "Chinchilla-70B and PaLM-540B",
+    "answer": "LLaMA-65B is competitive with GPT-3 and Chinchilla, despite being 5-10 smaller.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "What is Retrieval-Augmented Generation (RAG)?",
+    "ground_truth": "RAG is a promising approach for mitigating the hallucination of large language models (LLMs).",
+    "answer": "Retrieval-Augmented Generation (RAG) is a method used in natural language processing (NLP) to generate human-like responses based on the context provided during the retrieval process. In other words, RAG generates a response that is more likely to be understood by humans compared to a random response generated by a machine learning model.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "How many fundamental abilities are required for RAG according to the paper?",
+    "ground_truth": "4",
+    "answer": "According to the paper, RAG requires three fundamental abilities:\n\n1. Retrieval: The ability to retrieve information from a large corpus of text.\n2. Generation: The ability to generate new text based on input prompts.\n3. Adaptation: The ability to adapt to changing contexts and environments.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "What are the four testbeds based on the fundamental abilities required to resolve the case in RGB?",
+    "ground_truth": "Noise Robustness, Negative Rejection, Information Integration, Counterfactual Robustness",
+    "answer": "The four testbeds based on the fundamental abilities required to resolve the case in RGB are:\n\n1. Basic ability: This refers to the ability to understand basic concepts and principles.\n2. Intermediate ability: This refers to the ability to understand intermediate concepts and principles.\n3. Advanced ability: This refers to the ability to understand advanced concepts and principles.\n4. Expert ability: This refers to the ability to understand expert concepts and principles.",
+    "score": 0
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "Which year did OpenAI introduce its own ChatGPT app for iOS?",
+    "ground_truth": "2023",
+    "answer": "On May 18th, 2023, OpenAI introduced its own ChatGPT app for iOS.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "What are the challenges LLMs face when applying RAG?",
+    "ground_truth": "LLMs struggle significantly in terms of negative rejection, information integration, and dealing with false information.",
+    "answer": "The challenges LLMs face when applying RAG include information integration, which poses a significant challenge as it requires integrating new knowledge from external sources into the training process. Additionally, the ability to adapt to changing environments and incorporate new knowledge is also a major challenge.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "What is the main focus of Retrieval-Augmented Generation (RAG) models?",
+    "ground_truth": "RAG models combine pre-trained parametric and non-parametric memory for language generation.",
+    "answer": "The main focus of Retrieval-Augmented Generation (RAG) models is to improve the robustness of subsequent answer generation by offering additional contextual references through multiple retrieval iterations.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "Which three open domain QA tasks did RAG models set the state of the art on?",
+    "ground_truth": "Natural Questions, WebQuestions, and CuratedTrec.",
+    "answer": "RAG models set the state of the art on the TQA task.",
+    "score": 1
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "How does the RAG model access non-parametric memory?",
+    "ground_truth": "The non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever.",
+    "answer": "The RAG model accesses non-parametric memory by using a general-purpose fine-tuning approach that it refers to as retrieval-augmented generation (RAG).",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "What type of models are REALM and ORQA, and how do they relate to RAG?",
+    "ground_truth": "REALM and ORQA are models that combine masked language models with a differentiable retriever, showing promising results for RAG.",
+    "answer": "REALM and ORQA are both large models developed by Alibaba Cloud. RealM is a large model that was created for image recognition tasks, while ORQA is a large model that was created for natural language processing tasks. These two models have been integrated into RAG, which allows users to ask questions about these models and receive answers from RAG.",
+    "score": 1
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "What is the percentage of improvement FEVER fact verification achieved compared to state-of-the-art pipeline models?",
+    "ground_truth": "4.3%",
+    "answer": "Based on the reference provided, FEVER fact verification has achieved results within 4.3% of state-of-the-art pipeline models using strong retrieval supervision. This means that the accuracy of the retrieved information is improved by around 4.3%.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "What challenges do Large Language Models (LLMs) encounter?",
+    "ground_truth": "hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes",
+    "answer": "Large Language Models (LLMs) encounter several challenges, including:\n\n1. Generalization to new domains and knowledge-intensive tasks: Despite recent advancements, LLMs still struggle with generalizing to new domains and dealing with complex knowledge-intensive tasks.\n\n2. Limited ability to handle queries beyond their training data: While LLMs can learn from their training data, they often require current information to produce accurate responses.\n\n3. Difficulty in understanding and processing current information: LLMs may struggle to understand and process current information, leading to hallucinations or errors.\n\n4. Lack of sufficient training data: LLMs need more training data to improve their performance and accuracy.\n\n5. Complexity of task requirements: LLMs must be trained to perform specific tasks,",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "How does Retrieval-Augmented Generation (RAG) enhance the accuracy and credibility of LLMs?",
+    "ground_truth": "by incorporating knowledge from external databases",
+    "answer": "Retrieval-Augmented Generation (RAG) enhances the accuracy and credibility of LLMs by providing additional contextual references through multiple retrieval iterations. By using semantic similarity calculation, RAG allows LLMs to retrieve relevant document chunks from external knowledge bases, which helps them to generate more accurate and reliable responses. Additionally, RAG enables LLMs to incorporate more contextual information into their responses, making them more trustworthy and credible.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "How many RAG research paradigms does the paper summarize?",
+    "ground_truth": "three",
+    "answer": "The paper summarizes 3 RAG research paradigms: Naive RAG, Advanced RAG, and Modular RAG.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "What are the three main components of RAG frameworks?",
+    "ground_truth": "retrieval, generation, and augmentation techniques",
+    "answer": "The three main components of RAG frameworks are:\n\n1. Retrieval: This component involves the process of extracting information from the input text or data.\n\n2. Generation: This component involves the process of creating new text or data based on the existing text or data.\n\n3. Augmentation: This component involves the process of adding new information to the existing text or data.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "What are the future directions for RAG emphasized in the paper?",
+    "ground_truth": "potential enhancements to tackle current challenges",
+    "answer": "The paper emphasizes potential enhancements to tackle current challenges in RAG, including future directions for RAG that emphasize potential enhancements to tackle current challenges.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "What is the name of the framework introduced to enhance an LM's quality and factuality through retrieval and self-reflection?",
+    "ground_truth": "Self-Reflective Retrieval-Augmented Generation (SELF-RAG)",
+    "answer": "SELF-RAG",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "How does SELF-RAG differ from conventional RAG in terms of retrieval?",
+    "ground_truth": "SELF-RAG adaptively retrieves passages on-demand, whereas conventional RAG consistently retrieves a fixed number of documents regardless of the retrieval necessity.",
+    "answer": "SELF-RAG differs from conventional RAG in that it uses self-referential logic instead of traditional entailment reasoning. This allows SELF-RAG to generate more accurate responses by incorporating self-reference into its decision-making process.",
+    "score": 0
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "What are the two categories of reflection tokens used in SELF-RAG?",
+    "ground_truth": "retrieval and critique tokens",
+    "answer": "Self-RAG uses \"retrieve\" and \"critic\" reflection tokens.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "How does SELF-RAG provide citations for each segment?",
+    "ground_truth": "SELF-RAG provides citations for each segment with its self-assessment of whether the output is supported by the passage, leading to easier fact verification.",
+    "answer": "SELF-RAG provides citations for each segment with its self-assessment of whether the output is supported by the passage, leading to easier fact verification.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "On how many tasks did SELF-RAG demonstrate significant outperformance over pre-trained and instruction-tuned LLMs?",
+    "ground_truth": "six tasks",
+    "answer": "SELF-RAG demonstrated significant outperformance over pre-trained and instruction-tuned LLMs on six tasks, including reasoning and long-form generation.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "What is Sentence-BERT (SBERT)?",
+    "ground_truth": "Sentence-BERT (SBERT) is a modification of the pretrained BERT network that uses siamese and triplet network structures to derive semantically meaningful sentence embeddings that can be compared using cosine-similarity.",
+    "answer": "Sentence-BERT (SBERT) is a modification of the pretrained BERT network that uses Siamese and Triplet networks to derive semantically meaningful sentence embeddings that can be compared using cosine similarity.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "How much time does finding the most similar pair in a collection of 10,000 sentences require with BERT?",
+    "ground_truth": "65 hours",
+    "answer": "Finding the most similar pair in a collection of 10,000 sentences requires about 5 seconds with SBERT.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "What is the time reduction for finding the most similar pair in a collection of 10,000 sentences with SBERT compared to BERT?",
+    "ground_truth": "from 65 hours to about 5 seconds",
+    "answer": "The time reduction for finding the most similar pair in a collection of 10,000 sentences with SBERT compared to BERT is about 5 seconds with SBERT.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "Which tasks can SBERT be used for that were not applicable for BERT?",
+    "ground_truth": "SBERT can be used for large-scale semantic similarity comparison, clustering, and information retrieval via semantic search.",
+    "answer": "SBERT can be used for fine-tuning BERT as described by Devlin et al.",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "How much improvement does SBERT achieve on seven Semantic Textual Similarity (STS) tasks compared to InferSent and Universal Sentence Encoder?",
+    "ground_truth": "11.7 points compared to InferSent and 5.5 points compared to Universal Sentence Encoder",
+    "answer": "SBERT achieves an improvement of 11.7 points compared to InferSent and 5.5 points compared to Universal Sentence Encoder on seven Semantic Textual Similarity (STS) tasks.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "test_doc.pdf",
+    "question": "What are Graph Attention Networks (GATs)?",
+    "ground_truth": "Graph Attention Networks (GATs) are novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations.",
+    "answer": "Graph Attention Networks (GATs) are novel convolution-style neural networks that operate on graph-structured data, leveraging masked self-attentional layers.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "test_doc.pdf",
+    "question": "How many datasets did GAT models achieve or match state-of-the-art results on?",
+    "ground_truth": "Four",
+    "answer": "GAT models achieved or matched state-of-the-art results on four established transductive and inductive graph benchmarks: the Cora, Citeseer, and PubMed citation network datasets, as well as a protein-protein interaction dataset (wherein test graphs remain unseen during training).",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "test_doc.pdf",
+    "question": "What are the two main categories of advances in generalizing convolutions to the graph domain?",
+    "ground_truth": "Spectral approaches and non-spectral approaches",
+    "answer": "The two main categories of advances in generalizing convolutions to the graph domain are:\n\n1. Spectral approaches\n2. Non-spectral approaches\n\nIn other words, the two main categories are spectral approaches and non-spectral approaches.",
+    "score": 3
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "test_doc.pdf",
+    "question": "What are the challenges of non-spectral approaches in graph convolutions?",
+    "ground_truth": "One of the challenges of these approaches is to define an operator which works with different sized neighborhoods and maintains the weight sharing property of CNNs.",
+    "answer": "Non-spectral approaches (Duvenaud et al., 2015; Atwood & Towsley, 2016; Hamilton et al., 2017) face several challenges when working with graphs. These include:\n\n1. Non-spectral approaches require direct convolution operations on the graph, which can lead to inaccurate results due to the lack of spatial information between neighboring nodes.\n\n2. The transformation from graph data to text format can be challenging, as it requires converting the graph structure into a more manageable form that can be analyzed using text-based methods.\n\n3. Both of these methods are not optimal solutions, indicating potential substan- tial research opportunities in this area.\n\n4. Current techniques restrict the power of the",
+    "score": 2
+  },
+  {
+    "config": "Dense-Only",
+    "doc_name": "test_doc.pdf",
+    "question": "What are the three properties of the attention architecture mentioned in the paper?",
+    "ground_truth": "(1) the operation is efficient, since it is parallelizable across node-neighbor pairs; (2) it can be applied to graph nodes having different degrees by specifying arbitrary weights to the neighbors; and (3) the model is directly applicable to inductive learning problems, including tasks where the model has to generalize to completely unseen graphs.",
+    "answer": "The paper mentions that the attention architecture has several interesting properties:\n\n1. It is efficient, since it is parallelizable across node-neighbor pairs.\n2. It can be applied to graph nodes having different degrees by specifying arbitrary weights to the neighbors.\n3. The model is directly applicable to inductive learning problems, including tasks where the model has to generalize to completely unseen graphs.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "What is the name of the new network architecture proposed in the paper?",
+    "ground_truth": "Transformer",
+    "answer": "The new network architecture proposed in the paper is called the Transformer.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "What does the Transformer model architecture replace recurrence and convolutions with?",
+    "ground_truth": "attention mechanisms",
+    "answer": "The Transformer model architecture replaces recurrence and convolutions with attention mechanisms.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "What is the BLEU score achieved by the model on the WMT 2014 English-to-German translation task?",
+    "ground_truth": "28.4",
+    "answer": "The BLEU score achieved by the model on the WMT 2014 English-to-German translation task is 28.4.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "How many layers does the encoder in the Transformer model have?",
+    "ground_truth": "6",
+    "answer": "The encoder in the Transformer model has six identical layers.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "Which two types of sub-layers does each layer in the encoder and decoder stacks have?",
+    "ground_truth": "multi-head self-attention mechanism and a position-wise fully connected feed-forward network",
+    "answer": "The encoder has two sub-layers, while the decoder has three sub-layers.",
+    "score": 2
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "What does BERT stand for?",
+    "ground_truth": "Bidirectional Encoder Representations from Transformers",
+    "answer": "BERT stands for \"Bidirectional Encoder Representations from Transformers\".",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "What is the GLUE score achieved by BERT?",
+    "ground_truth": "80.5%",
+    "answer": "BERT LARGE obtained a score of 80.5, compared to OpenAI GPT, which obtained 72.8 as of the date of writing.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "How does BERT improve fine-tuning approaches?",
+    "ground_truth": "By using a 'masked language model' pre-training objective",
+    "answer": "BERT improves fine-tuning approaches by proposing BERT: Bidirectional Encoder Representations from Transformers.",
+    "score": 2
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "What are the two existing strategies for applying pre-trained language representations to downstream tasks?",
+    "ground_truth": "feature-based and fine-tuning",
+    "answer": "The two existing strategies for applying pre-trained language representations to downstream tasks are:\n\n1. Feature-based and fine-tuning\n\n2. Mixed results on the downstream task impact of increasing the pre-trained bi-LM size from two to four layers and Melamud et al.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "What is the SQuAD v1.1 question answering Test F1 score achieved by BERT?",
+    "ground_truth": "93.2",
+    "answer": "The SQuAD v1.1 question answering Test F1 score achieved by BERT is 93.2.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "What is the task of open-domain question answering?",
+    "ground_truth": "answers factoid questions using a large collection of documents",
+    "answer": "The task of open-domain question answering is to generate an appropriate response based on a set of input questions or prompts. The goal is to provide a coherent and informative answer to the user's query without explicitly stating the answer.",
+    "score": 2
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "How much does the dense retriever outperform the Lucene-BM25 system in terms of top-20 passage retrieval accuracy?",
+    "ground_truth": "9%-19% absolute",
+    "answer": "The dense retriever outperforms the Lucene-BM25 system by 9%-19% absolute in terms of top-20 passage retrieval accuracy.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "What is the dual-encoder framework's role in the dense representations?",
+    "ground_truth": "learn embeddings from a small number of questions and passages",
+    "answer": "The dual-encoder framework's role in the dense representations is to learn embeddings from a small number of questions and passages by encoding them into a larger space of vectors. This allows the model to capture the semantic structure and meaning of the input data more effectively.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "What is the difference between sparse vector space models and dense, latent semantic encoding?",
+    "ground_truth": "Dense encodings can map synonyms or paraphrases to vectors close to each other, while sparse models match keywords efficiently with an inverted index",
+    "answer": "Sparse vector space models use a mathematical embedding from a space with one dimension per word to a continuous vector space with a much lower dimension. Dense, latent semantic encoding uses a mathematical embedding from a space with one dimension per token to a continuous vector space with a much lower dimension.",
+    "score": 2
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "How does the Dense Passage Retriever (DPR) compare to BM25 in Top-5 accuracy?",
+    "ground_truth": "65.2% vs. 42.9%",
+    "answer": "The Dense Passage Retriever (DPR) outperforms BM25 by a significant margin (65.2% vs. 42.9%).",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "What is the name of the collection of foundation language models introduced in the document?",
+    "ground_truth": "LLaMA",
+    "answer": "The collection of foundation language models introduced in the document is called \"One Billion Word Benchmark\".",
+    "score": 0
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "What is the range of parameters for the LLaMA models?",
+    "ground_truth": "from 7B to 65B parameters",
+    "answer": "The resulting models, called LLaMA, range from 7B to 65B parameters with competitive performance compared to the best existing LLMs.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "How does LLaMA-13B compare to GPT-3 in terms of performance on benchmarks?",
+    "ground_truth": "LLaMA-13B outperforms GPT-3 on most benchmarks",
+    "answer": "LLaMA-13B outperforms GPT-3 on most benchmarks, including BoolQ and WinoGrande.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "What is the percentage of CommonCrawl data in the training set?",
+    "ground_truth": "67%",
+    "answer": "English CommonCrawl represents 67% of the training set.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "Which models is LLaMA-65B competitive with?",
+    "ground_truth": "Chinchilla-70B and PaLM-540B",
+    "answer": "LLaMA-65B is competitive with the best large language models such as Chinchilla or PaLM-540B.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "What is Retrieval-Augmented Generation (RAG)?",
+    "ground_truth": "RAG is a promising approach for mitigating the hallucination of large language models (LLMs).",
+    "answer": "Retrieval-Augmented Generation (RAG) is a self-reflexive generation technique that augments language models with retrieval of relevant knowledge to address issues related to retrieval and generation. It was introduced by the authors of the reference \"Popular names by states\" and is based on the idea that knowledge can be retrieved through external sources like individuals or historical events. The technique aims to improve the quality of generated content by augmenting the model's ability to generate new sentences based on existing knowledge.",
+    "score": 2
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "How many fundamental abilities are required for RAG according to the paper?",
+    "ground_truth": "4",
+    "answer": "According to the reference, the paper requires four fundamental abilities for RAG:\n\nNoise robustness, Negative rejection, Information integration, and Counterfactual robustness.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "What are the four testbeds based on the fundamental abilities required to resolve the case in RGB?",
+    "ground_truth": "Noise Robustness, Negative Rejection, Information Integration, Counterfactual Robustness",
+    "answer": "The four testbeds based on the fundamental abilities required to resolve the case in RGB are:\n\n1. Basic Retrieval-Augmentation Generation (RGB)\n2. Noise Robustness\n3. Document Set Partitioning\n4. Document Set Expansion",
+    "score": 1
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "Which year did OpenAI introduce its own ChatGPT app for iOS?",
+    "ground_truth": "2023",
+    "answer": "May 18th, 2023",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "What are the challenges LLMs face when applying RAG?",
+    "ground_truth": "LLMs struggle significantly in terms of negative rejection, information integration, and dealing with false information.",
+    "answer": "LLMs often face difficulties in identifying the correct answer from external documents when the information related to the question is distant from the information related to the answer.",
+    "score": 2
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "What is the main focus of Retrieval-Augmented Generation (RAG) models?",
+    "ground_truth": "RAG models combine pre-trained parametric and non-parametric memory for language generation.",
+    "answer": "The main focus of Retrieval-Augmented Generation (RAG) models is to incorporate knowledge from external databases and augment the language model's output to improve its ability to generate new sentences or phrases based on previous information. This allows for more accurate and relevant responses to user queries.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "Which three open domain QA tasks did RAG models set the state of the art on?",
+    "ground_truth": "Natural Questions, WebQuestions, and CuratedTrec.",
+    "answer": "RAG models set the state of the art on three open-domain QA tasks: TQA, TQA, and TQA.",
+    "score": 0
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "How does the RAG model access non-parametric memory?",
+    "ground_truth": "The non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever.",
+    "answer": "The RAG model accesses non-parametric memory by using a dense vector index of Wikipedia, accessed with a pre-trained neural retriever.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "What type of models are REALM and ORQA, and how do they relate to RAG?",
+    "ground_truth": "REALM and ORQA are models that combine masked language models with a differentiable retriever, showing promising results for RAG.",
+    "answer": "REALM and ORQA are two different types of models that compare their performance to each other. REALM is a model that uses convolutional neural networks (CNNs) to generate text, while ORQA is an approach that combines CNNs with reinforcement learning (RL). RealMLaw and RealMnews are the same model but pretrained on Wikipedia and CC-News, respectively.",
+    "score": 0
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "What is the percentage of improvement FEVER fact verification achieved compared to state-of-the-art pipeline models?",
+    "ground_truth": "4.3%",
+    "answer": "The reference states that FEVER fact verification has achieved results within 4.3% of state-of-the-art pipeline models which use strong retrieval supervision.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "What challenges do Large Language Models (LLMs) encounter?",
+    "ground_truth": "hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes",
+    "answer": "LLMs encounter challenges such as hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "How does Retrieval-Augmented Generation (RAG) enhance the accuracy and credibility of LLMs?",
+    "ground_truth": "by incorporating knowledge from external databases",
+    "answer": "Retrieval-Augmented Generation (RAG) enhances the accuracy and credibility of LLMs by providing retrieval assistance to improve the quality of information retrieved from external knowledge bases. This can help ensure that the generated responses are accurate and credible, which is essential for trustworthiness and reliability in AI systems. Additionally, RAG allows LLMs to retrieve relevant document chunks from external knowledge bases through semantic similarity calculations, which can further enhance their accuracy and credibility.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "How many RAG research paradigms does the paper summarize?",
+    "ground_truth": "three",
+    "answer": "The paper summarizes three main research paradigms from over 100 RAG studies.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "What are the three main components of RAG frameworks?",
+    "ground_truth": "retrieval, generation, and augmentation techniques",
+    "answer": "The three main components of RAG frameworks are:\n\n1. Retrieval: This component involves generating new documents based on existing ones by searching for relevant information within the document.\n\n2. Generation: This component involves creating new documents that are not already present in the database but can be generated through specific queries or algorithms.\n\n3. Augmentation: This component involves adding new features or attributes to an existing document without changing its content.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "What are the future directions for RAG emphasized in the paper?",
+    "ground_truth": "potential enhancements to tackle current challenges",
+    "answer": "The paper emphasizes potential enhancements to tackle current challenges related to RAG. Specifically, it outlines the challenges that RAG currently faces and its future development directions. It also provides an overview of RAG's typical applications, including a figure illustrating how RAG can be used in various contexts.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "What is the name of the framework introduced to enhance an LM's quality and factuality through retrieval and self-reflection?",
+    "ground_truth": "Self-Reflective Retrieval-Augmented Generation (SELF-RAG)",
+    "answer": "SELF-RAG",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "How does SELF-RAG differ from conventional RAG in terms of retrieval?",
+    "ground_truth": "SELF-RAG adaptively retrieves passages on-demand, whereas conventional RAG consistently retrieves a fixed number of documents regardless of the retrieval necessity.",
+    "answer": "SELF-RAG differs from conventional RAG in terms of retrieval by providing an alternative approach to retrieving information from text documents. It uses a combination of machine learning algorithms and natural language processing techniques to generate human-like responses based on the input text. In contrast, conventional RAG relies solely on statistical methods to determine the probability of each word appearing in a given document.",
+    "score": 2
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "What are the two categories of reflection tokens used in SELF-RAG?",
+    "ground_truth": "retrieval and critique tokens",
+    "answer": "SELF-RAG uses \"retrieve\" and \"critic\" reflection tokens to enable the model to introspect its outputs and generate text with these tokens.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "How does SELF-RAG provide citations for each segment?",
+    "ground_truth": "SELF-RAG provides citations for each segment with its self-assessment of whether the output is supported by the passage, leading to easier fact verification.",
+    "answer": "SELF-RAG provides citations for each segment with its self-assessment of whether the output is supported by the passage, leading to easier fact verification.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "On how many tasks did SELF-RAG demonstrate significant outperformance over pre-trained and instruction-tuned LLMs?",
+    "ground_truth": "six tasks",
+    "answer": "SELF-RAG demonstrated significant outperformance over pre-trained and instruction-tuned LLMs in six tasks, including reasoning and long-form generation.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "What is Sentence-BERT (SBERT)?",
+    "ground_truth": "Sentence-BERT (SBERT) is a modification of the pretrained BERT network that uses siamese and triplet network structures to derive semantically meaningful sentence embeddings that can be compared using cosine-similarity.",
+    "answer": "Sentence-BERT (SBERT) is a modification of the pretrained BERT network that uses siamese and triplet networks to derive semantically meaningful sentence embeddings that can be compared using cosine-similarity.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "How much time does finding the most similar pair in a collection of 10,000 sentences require with BERT?",
+    "ground_truth": "65 hours",
+    "answer": "Finding the most similar pair in a collection of 10,000 sentences requires about 50 million inference computations (with BERT).",
+    "score": 2
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "What is the time reduction for finding the most similar pair in a collection of 10,000 sentences with SBERT compared to BERT?",
+    "ground_truth": "from 65 hours to about 5 seconds",
+    "answer": "The time reduction for finding the most similar pair in a collection of 10,000 sentences with SBERT compared to BERT is about 5 seconds.",
+    "score": 2
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "Which tasks can SBERT be used for that were not applicable for BERT?",
+    "ground_truth": "SBERT can be used for large-scale semantic similarity comparison, clustering, and information retrieval via semantic search.",
+    "answer": "SBERT can be used for tasks which are computationally not feasible to be modeled with BERT.",
+    "score": 2
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "How much improvement does SBERT achieve on seven Semantic Textual Similarity (STS) tasks compared to InferSent and Universal Sentence Encoder?",
+    "ground_truth": "11.7 points compared to InferSent and 5.5 points compared to Universal Sentence Encoder",
+    "answer": "SBERT achieves an improvement of 11.7 points compared to InferSent and 5.5 points compared to Universal Sentence Encoder on seven Semantic Textual Similarity (STS) tasks.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "test_doc.pdf",
+    "question": "What are Graph Attention Networks (GATs)?",
+    "ground_truth": "Graph Attention Networks (GATs) are novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations.",
+    "answer": "Graph Attention Networks (GATs) are a type of feedforward neural network that uses self-attention mechanisms to learn representations from input data. They are particularly useful for processing large-scale graphs, where the number of nodes can be very high. GATs have been shown to outperform other types of neural networks on various tasks, including graph classification, clustering, and sentiment analysis.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "test_doc.pdf",
+    "question": "How many datasets did GAT models achieve or match state-of-the-art results on?",
+    "ground_truth": "Four",
+    "answer": "GAT models achieved or matched state-of-the-art results on four out of the five datasets mentioned in the reference. Specifically, they achieved or matched results on the CiteSeer, Pubmed citation network, Citeseer, and PubMed citation networks datasets, as well as the Protein-Protein Interaction dataset.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "test_doc.pdf",
+    "question": "What are the two main categories of advances in generalizing convolutions to the graph domain?",
+    "ground_truth": "Spectral approaches and non-spectral approaches",
+    "answer": "The two main categories of advances in generalizing convolutions to the graph domain are:\n\n1. Spectral approaches - These methods focus on improving the accuracy and efficiency of convolution operations by using more advanced techniques such as spectral regularization and wavelet transforms.\n\n2. Non-spectral approaches - These methods use different algorithms and architectures than traditional convolutional neural networks (CNNs). They can be used to perform tasks that are not well-suited for CNNs, such as image classification, speech recognition, and natural language processing.\n\nIn summary, the two main categories of advances in generalizing convolutions to the graph domain are spectral approaches and non-spectral approaches.",
+    "score": 3
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "test_doc.pdf",
+    "question": "What are the challenges of non-spectral approaches in graph convolutions?",
+    "ground_truth": "One of the challenges of these approaches is to define an operator which works with different sized neighborhoods and maintains the weight sharing property of CNNs.",
+    "answer": "The main challenge of non-spectral approaches in graph convolution is that they rely on the Laplacian eigenbasis, which depends on the graph structure. This means that the learned filters depend on the Laplacian eigenbasis, which can be expensive to compute and requires costly matrix operations. Additionally, the Laplacian eigenbasis is only available for certain types of graphs, such as dense graphs or sparse graphs. Therefore, it is important to find alternative ways to represent the graph structure without relying on the Laplacian eigenbasis.",
+    "score": 0
+  },
+  {
+    "config": "BM25-Only",
+    "doc_name": "test_doc.pdf",
+    "question": "What are the three properties of the attention architecture mentioned in the paper?",
+    "ground_truth": "(1) the operation is efficient, since it is parallelizable across node-neighbor pairs; (2) it can be applied to graph nodes having different degrees by specifying arbitrary weights to the neighbors; and (3) the model is directly applicable to inductive learning problems, including tasks where the model has to generalize to completely unseen graphs.",
+    "answer": "The attention architecture has several interesting properties:\n\n1. It is parallelizable across node-neighbor pairs, meaning that it can be applied to graph nodes having different degrees by specifying arbitrary weights to the neighbors.\n\n2. It can be applied to graph nodes having different degrees by specifying arbitrary weights to the neighbors.\n\n3. The model is directly applicable to inductive learning problems, including tasks where the model has to generalize to completely unseen graphs.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "What is the name of the new network architecture proposed in the paper?",
+    "ground_truth": "Transformer",
+    "answer": "The new network architecture proposed in the paper is called the Transformer.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "What does the Transformer model architecture replace recurrence and convolutions with?",
+    "ground_truth": "attention mechanisms",
+    "answer": "The Transformer model architecture replaces recurrence and convolutions with an attention mechanism to draw global dependencies between input and output.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "What is the BLEU score achieved by the model on the WMT 2014 English-to-German translation task?",
+    "ground_truth": "28.4",
+    "answer": "The BLEU score achieved by the model on the WMT 2014 English-to-German translation task is 28.4.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "How many layers does the encoder in the Transformer model have?",
+    "ground_truth": "6",
+    "answer": "The encoder in the Transformer model has two layers.",
+    "score": 0
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "attention_vaswani2017.pdf",
+    "question": "Which two types of sub-layers does each layer in the encoder and decoder stacks have?",
+    "ground_truth": "multi-head self-attention mechanism and a position-wise fully connected feed-forward network",
+    "answer": "Each layer in the encoder and decoder stacks has two sub-layers.",
+    "score": 2
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "What does BERT stand for?",
+    "ground_truth": "Bidirectional Encoder Representations from Transformers",
+    "answer": "BERT stands for \"Bidirectional Encoder Representations from Transformers\".",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "What is the GLUE score achieved by BERT?",
+    "ground_truth": "80.5%",
+    "answer": "The GLUE leaderboard scores of BERT Large and OpenAI GPT are both 80.5, indicating that BERT has outperformed OpenAI GPT in several tasks such as question answering, sentence classification, and sentence pair regression.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "How does BERT improve fine-tuning approaches?",
+    "ground_truth": "By using a 'masked language model' pre-training objective",
+    "answer": "BERT improves fine-tuning approaches by using a cross-encoder, which allows it to predict multiple values at once instead of just one.",
+    "score": 2
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "What are the two existing strategies for applying pre-trained language representations to downstream tasks?",
+    "ground_truth": "feature-based and fine-tuning",
+    "answer": "The two existing strategies for applying pre-trained language representations to downstream tasks are:\n\n1. Feature-based fine-tuning, which uses a shallow concatenation of independently trained left-to-right and right-to-left LMs.\n\n2. Fine-tuning, which uses a shallow concatenation of independently trained left-to-right and right-to-left LMs.",
+    "score": 2
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "bert_devlin2019.pdf",
+    "question": "What is the SQuAD v1.1 question answering Test F1 score achieved by BERT?",
+    "ground_truth": "93.2",
+    "answer": "The SQuAD v1.1 question answering Test F1 score achieved by BERT is 93.2 (1.5 point absolute improvement).",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "What is the task of open-domain question answering?",
+    "ground_truth": "answers factoid questions using a large collection of documents",
+    "answer": "The task of open-domain question answering is to generate an answer from a set of pre-defined questions or prompts based on the input text. This involves generating a response that is relevant and informative to the context of the prompt.",
+    "score": 2
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "How much does the dense retriever outperform the Lucene-BM25 system in terms of top-20 passage retrieval accuracy?",
+    "ground_truth": "9%-19% absolute",
+    "answer": "The dense retriever outperforms the Lucene-BM25 system by 9%-19% absolute in terms of top-20 passage retrieval accuracy.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "What is the dual-encoder framework's role in the dense representations?",
+    "ground_truth": "learn embeddings from a small number of questions and passages",
+    "answer": "The dual-encoder framework's role in the dense representations is to learn embeddings from a small number of questions and passages by using a simple dual-encoder framework. This allows the model to capture more complex relationships between words and their meanings.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "What is the difference between sparse vector space models and dense, latent semantic encoding?",
+    "ground_truth": "Dense encodings can map synonyms or paraphrases to vectors close to each other, while sparse models match keywords efficiently with an inverted index",
+    "answer": "The difference between sparse vector space models and dense, latent semantic encoding lies in their approach to representing information. Sparse vector space models represent information using only a small number of features, while dense, latent semantic encoding represents information using a large number of features.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "dpr_karpukhin2020.pdf",
+    "question": "How does the Dense Passage Retriever (DPR) compare to BM25 in Top-5 accuracy?",
+    "ground_truth": "65.2% vs. 42.9%",
+    "answer": "The Dense Passage Retriever (DPR) outperforms BM25 by a significant margin (65.2% vs. 42.9%), demonstrating its superior performance in retrieving passages from a diverse range of topics.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "What is the name of the collection of foundation language models introduced in the document?",
+    "ground_truth": "LLaMA",
+    "answer": "The reference document does not provide a specific name for the collection of foundation language models. It mentions \"large language models\" but does not specify what it refers to.",
+    "score": 2
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "What is the range of parameters for the LLaMA models?",
+    "ground_truth": "from 7B to 65B parameters",
+    "answer": "The resulting models, called LLaMA, range from 7B to 65B parameters with competitive performance compared to the best existing LLMs.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "How does LLaMA-13B compare to GPT-3 in terms of performance on benchmarks?",
+    "ground_truth": "LLaMA-13B outperforms GPT-3 on most benchmarks",
+    "answer": "LLaMA-13B outperforms GPT-3 on most benchmarks despite being 10 \u0002smaller.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "What is the percentage of CommonCrawl data in the training set?",
+    "ground_truth": "67%",
+    "answer": "English CommonCrawl [67%].",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "llama_touvron2023.pdf",
+    "question": "Which models is LLaMA-65B competitive with?",
+    "ground_truth": "Chinchilla-70B and PaLM-540B",
+    "answer": "LLaMA-65B is competitive with Chinchilla-70B and PaLM-540B.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "What is Retrieval-Augmented Generation (RAG)?",
+    "ground_truth": "RAG is a promising approach for mitigating the hallucination of large language models (LLMs).",
+    "answer": "Retrieval-Augmented Generation (RAG) is a method used in natural language processing that combines retrieval with an entailment reasoning task. It is designed to provide an appropriate testbed for exploring the capabilities of RAG models in handling classiﬁcation rather than generation.",
+    "score": 2
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "How many fundamental abilities are required for RAG according to the paper?",
+    "ground_truth": "4",
+    "answer": "According to the paper, RAG requires four fundamental abilities:\n\n1. Noise robustness\n2. Negative rejection\n3. Information integration\n4. Counterfactual robustness",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "What are the four testbeds based on the fundamental abilities required to resolve the case in RGB?",
+    "ground_truth": "Noise Robustness, Negative Rejection, Information Integration, Counterfactual Robustness",
+    "answer": "The four testbeds based on the fundamental abilities required to resolve the case in RGB are:\n\n1. Basic Ability A: Resolution of the case\n2. Basic Ability B: Understanding the context\n3. Basic Ability C: Generating coherent responses\n4. Basic Ability D: Handling ambiguity",
+    "score": 0
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "Which year did OpenAI introduce its own ChatGPT app for iOS?",
+    "ground_truth": "2023",
+    "answer": "On May 18th, 2023, OpenAI introduced its own ChatGPT app for iOS.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "longllmlingua_jiang2023.pdf",
+    "question": "What are the challenges LLMs face when applying RAG?",
+    "ground_truth": "LLMs struggle significantly in terms of negative rejection, information integration, and dealing with false information.",
+    "answer": "The challenges LLMs face when applying RAG include:\n\n1. Limitations in the 4 abilities: Current LLMs have limitations in the ability to recognize faces, identify objects, understand speech patterns, and generate text based on input prompts.\n\n2. Dataset preparation and training: While RAG can reduce hallucinations, it may face challenges with unfamiliar data due to the lack of labeled examples.\n\n3. Computational resources: RAG requires significant computational resources for dataset preparation and training, which could limit its effectiveness in certain applications.\n\n4. Challenges with unfamiliar data: Advanced RAG and modular RAG offer new possibilities but also require significant computational resources to train models on unfamiliar datasets.",
+    "score": 2
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "What is the main focus of Retrieval-Augmented Generation (RAG) models?",
+    "ground_truth": "RAG models combine pre-trained parametric and non-parametric memory for language generation.",
+    "answer": "The main focus of Retrieval-Augmented Generation (RAG) models is to incorporate knowledge from external databases into their retrieval algorithms, thereby enhancing the robustness of subsequent answer generation by offering additional contextual references through multiple retrieval iterations.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "Which three open domain QA tasks did RAG models set the state of the art on?",
+    "ground_truth": "Natural Questions, WebQuestions, and CuratedTrec.",
+    "answer": "RAG models set the state of the art on three open domain QA tasks: TQA, TQA, and TQA.",
+    "score": 0
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "How does the RAG model access non-parametric memory?",
+    "ground_truth": "The non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever.",
+    "answer": "The RAG model accesses non-parametric memory through a general-purpose fine-tuning approach that it refers to as retrieval-augmented generation (RAG).",
+    "score": 2
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "What type of models are REALM and ORQA, and how do they relate to RAG?",
+    "ground_truth": "REALM and ORQA are models that combine masked language models with a differentiable retriever, showing promising results for RAG.",
+    "answer": "REALM and ORQA are both large models, which means they have many inputs and outputs. They compare their results to RAG, which is a model designed to understand both large models and RAG. RealM compares their results to RAG, while ORQA compares their results to ORQA.",
+    "score": 1
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "rag_lewis2020.pdf",
+    "question": "What is the percentage of improvement FEVER fact verification achieved compared to state-of-the-art pipeline models?",
+    "ground_truth": "4.3%",
+    "answer": "Based on the reference provided, FEVER fact verification achieves results within 4.3% of state-of-the-art pipeline models using strong retrieval supervision.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "What challenges do Large Language Models (LLMs) encounter?",
+    "ground_truth": "hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes",
+    "answer": "LLMs encounter challenges such as hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes when handling queries beyond their training data or requiring current information.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "How does Retrieval-Augmented Generation (RAG) enhance the accuracy and credibility of LLMs?",
+    "ground_truth": "by incorporating knowledge from external databases",
+    "answer": "Retrieval-Augmented Generation (RAG) enhances the accuracy and credibility of LLMs by providing relevant document chunks from external knowledge bases through semantic similarity calculation. This allows LLMs to retrieve accurate and reliable information, which improves their factual accuracy without harming their versatility. Additionally, RAG enables LLMs to generate contextually coherent responses, leading to improved overall efficiency of the RAG system.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "How many RAG research paradigms does the paper summarize?",
+    "ground_truth": "three",
+    "answer": "The paper summarizes three main research paradigms from over 100 RAG studies.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "What are the three main components of RAG frameworks?",
+    "ground_truth": "retrieval, generation, and augmentation techniques",
+    "answer": "The three main components of RAG frameworks are:\n\n1. Retrieval: This component involves the process of extracting information from data sources or databases.\n\n2. Generation: This component involves the process of creating new data structures or representations based on existing data.\n\n3. Augmentation: This component involves the process of adding new features or attributes to an existing dataset or system.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "rag_survey_gao2024.pdf",
+    "question": "What are the future directions for RAG emphasized in the paper?",
+    "ground_truth": "potential enhancements to tackle current challenges",
+    "answer": "The paper emphasizes potential enhancements to tackle current challenges related to RAG. Specifically, it outlines the main concept and current paradigms of RAG, including advanced RAG and modular RAG. It also discusses the broader scope of RAG research within the landscape of LLMs. Finally, the paper concludes with an overview of RAG's typical application and illustrates its use in Figure 2.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "What is the name of the framework introduced to enhance an LM's quality and factuality through retrieval and self-reflection?",
+    "ground_truth": "Self-Reflective Retrieval-Augmented Generation (SELF-RAG)",
+    "answer": "SELF-RAG",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "How does SELF-RAG differ from conventional RAG in terms of retrieval?",
+    "ground_truth": "SELF-RAG adaptively retrieves passages on-demand, whereas conventional RAG consistently retrieves a fixed number of documents regardless of the retrieval necessity.",
+    "answer": "SELF-RAG differs from conventional RAG in that it uses a self-referential approach where each query is associated with its own context and relevance, which allows it to generate more accurate and relevant responses. This approach is different from traditional RAG, which relies solely on generative models and does not incorporate contextual information. Additionally, SELF-RAG employs a probabilistic language model to generate responses, while conventional RAG uses a fixed probability distribution.",
+    "score": 2
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "What are the two categories of reflection tokens used in SELF-RAG?",
+    "ground_truth": "retrieval and critique tokens",
+    "answer": "The two categories of reflection tokens used in SELF-RAG are \"retrieve\" and \"critic\".",
+    "score": 2
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "How does SELF-RAG provide citations for each segment?",
+    "ground_truth": "SELF-RAG provides citations for each segment with its self-assessment of whether the output is supported by the passage, leading to easier fact verification.",
+    "answer": "SELF-RAG provides citations for each segment with its self-assessment of whether the output is supported by the passage, leading to easier fact verification.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "selfrag_asai2023.pdf",
+    "question": "On how many tasks did SELF-RAG demonstrate significant outperformance over pre-trained and instruction-tuned LLMs?",
+    "ground_truth": "six tasks",
+    "answer": "SELF-RAG demonstrated significant outperforming over pre-trained and instruction-tuned LLMs in six tasks, including reasoning and long-form generation.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "What is Sentence-BERT (SBERT)?",
+    "ground_truth": "Sentence-BERT (SBERT) is a modification of the pretrained BERT network that uses siamese and triplet network structures to derive semantically meaningful sentence embeddings that can be compared using cosine-similarity.",
+    "answer": "Sentence-BERT (SBERT) is a modification of the pretrained BERT network that uses Siamese and Triplet networks to derive semantically meaningful sentence embeddings that can be compared using cosine-similarity.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "How much time does finding the most similar pair in a collection of 10,000 sentences require with BERT?",
+    "ground_truth": "65 hours",
+    "answer": "Finding the most similar pair in a collection of 10,000 sentences requires about 50 million inference computations (~65 hours) with BERT.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "What is the time reduction for finding the most similar pair in a collection of 10,000 sentences with SBERT compared to BERT?",
+    "ground_truth": "from 65 hours to about 5 seconds",
+    "answer": "The time reduction for finding the most similar pair in a collection of 10,000 sentences with SBERT is reduced from 65 hours with BERT to about 5 seconds with SBERT. This means that the computational burden associated with finding the most similar pair has been significantly reduced.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "Which tasks can SBERT be used for that were not applicable for BERT?",
+    "ground_truth": "SBERT can be used for large-scale semantic similarity comparison, clustering, and information retrieval via semantic search.",
+    "answer": "SBERT can be used for tasks which are computationally not feasible to be modeled with BERT.",
+    "score": 2
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "sentence_bert_reimers2019.pdf",
+    "question": "How much improvement does SBERT achieve on seven Semantic Textual Similarity (STS) tasks compared to InferSent and Universal Sentence Encoder?",
+    "ground_truth": "11.7 points compared to InferSent and 5.5 points compared to Universal Sentence Encoder",
+    "answer": "SBERT achieves an improvement of 11.7 points compared to InferSent and 5.5 points compared to Universal Sentence Encoder on seven Semantic Textual Similarity (STS) tasks.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "test_doc.pdf",
+    "question": "What are Graph Attention Networks (GATs)?",
+    "ground_truth": "Graph Attention Networks (GATs) are novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations.",
+    "answer": "Graph Attention Networks (GATs) are a type of feedforward neural network that uses attention mechanisms to attend to different parts of a graph at once during training. They have been shown to be effective for tasks such as sequence modeling and text classification.",
+    "score": 2
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "test_doc.pdf",
+    "question": "How many datasets did GAT models achieve or match state-of-the-art results on?",
+    "ground_truth": "Four",
+    "answer": "GAT models achieved or matched state-of-the-art results on four established transductive and inductive graph benchmarks: the Cora, Citeseer, and PubMed citation network datasets, as well as a protein-protein interaction dataset (wherein test graphs remain unseen during training).",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "test_doc.pdf",
+    "question": "What are the two main categories of advances in generalizing convolutions to the graph domain?",
+    "ground_truth": "Spectral approaches and non-spectral approaches",
+    "answer": "The two main categories of advances in generalizing convolutions to the graph domain are:\n\n1. Spectral approaches - These methods use spectral techniques to improve the performance of convolutional neural networks (CNNs) on graph domains.\n\n2. Non-spectral approaches - These methods do not rely on spectral techniques but instead use other techniques such as skip connections or residual connections to improve the performance of CNNs on graph domains.",
+    "score": 3
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "test_doc.pdf",
+    "question": "What are the challenges of non-spectral approaches in graph convolutions?",
+    "ground_truth": "One of the challenges of these approaches is to define an operator which works with different sized neighborhoods and maintains the weight sharing property of CNNs.",
+    "answer": "The main challenge of non-spectral approaches in graph convolution is that they do not operate directly on the graph, but rather on groups of spatially close neighbors. This means that they cannot capture the structure and relationships between nodes within the graph. Additionally, non-spectral approaches require a large amount of data to train, which may limit their applicability to certain types of graphs or datasets.",
+    "score": 2
+  },
+  {
+    "config": "Hybrid",
+    "doc_name": "test_doc.pdf",
+    "question": "What are the three properties of the attention architecture mentioned in the paper?",
+    "ground_truth": "(1) the operation is efficient, since it is parallelizable across node-neighbor pairs; (2) it can be applied to graph nodes having different degrees by specifying arbitrary weights to the neighbors; and (3) the model is directly applicable to inductive learning problems, including tasks where the model has to generalize to completely unseen graphs.",
+    "answer": "The attention architecture has several interesting properties:\n\n1. It is parallelizable across node-neighbor pairs, meaning that it can be easily implemented using multiple processors or GPUs.\n\n2. It can be applied to graph nodes having different degrees by specifying arbitrary weights to the neighbors, which allows for more flexible modeling of complex networks.\n\n3. The model is directly applicable to inductive learning problems, including tasks where the model has to generalize to completely unseen graphs.",
+    "score": 3
+  }
+]

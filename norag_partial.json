@@ -1,0 +1,302 @@
+[
+  {
+    "config": "No-RAG",
+    "q_num": 1,
+    "score": 0,
+    "question_prefix": "What is the name of the new network architecture p"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 2,
+    "score": 3,
+    "question_prefix": "What does the Transformer model architecture repla"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 3,
+    "score": 0,
+    "question_prefix": "What is the BLEU score achieved by the model on th"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 4,
+    "score": 0,
+    "question_prefix": "How many layers does the encoder in the Transforme"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 5,
+    "score": 0,
+    "question_prefix": "Which two types of sub-layers does each layer in t"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 6,
+    "score": 3,
+    "question_prefix": "What does BERT stand for?"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 7,
+    "score": 0,
+    "question_prefix": "What is the GLUE score achieved by BERT?"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 8,
+    "score": 2,
+    "question_prefix": "How does BERT improve fine-tuning approaches?"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 9,
+    "score": 2,
+    "question_prefix": "What are the two existing strategies for applying "
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 10,
+    "score": 0,
+    "question_prefix": "What is the SQuAD v1.1 question answering Test F1 "
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 11,
+    "score": 1,
+    "question_prefix": "What is the task of open-domain question answering"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 12,
+    "score": 2,
+    "question_prefix": "How much does the dense retriever outperform the L"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 13,
+    "score": 2,
+    "question_prefix": "What is the dual-encoder framework's role in the d"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 14,
+    "score": 2,
+    "question_prefix": "What is the difference between sparse vector space"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 15,
+    "score": 0,
+    "question_prefix": "How does the Dense Passage Retriever (DPR) compare"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 16,
+    "score": 0,
+    "question_prefix": "What is the name of the collection of foundation l"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 17,
+    "score": 0,
+    "question_prefix": "What is the range of parameters for the LLaMA mode"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 18,
+    "score": 1,
+    "question_prefix": "How does LLaMA-13B compare to GPT-3 in terms of pe"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 19,
+    "score": 1,
+    "question_prefix": "What is the percentage of CommonCrawl data in the "
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 20,
+    "score": 1,
+    "question_prefix": "Which models is LLaMA-65B competitive with?"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 21,
+    "score": 2,
+    "question_prefix": "What is Retrieval-Augmented Generation (RAG)?"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 22,
+    "score": 3,
+    "question_prefix": "How many fundamental abilities are required for RA"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 23,
+    "score": 0,
+    "question_prefix": "What are the four testbeds based on the fundamenta"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 24,
+    "score": 0,
+    "question_prefix": "Which year did OpenAI introduce its own ChatGPT ap"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 25,
+    "score": 0,
+    "question_prefix": "What are the challenges LLMs face when applying RA"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 26,
+    "score": 3,
+    "question_prefix": "What is the main focus of Retrieval-Augmented Gene"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 27,
+    "score": 2,
+    "question_prefix": "Which three open domain QA tasks did RAG models se"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 28,
+    "score": 0,
+    "question_prefix": "How does the RAG model access non-parametric memor"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 29,
+    "score": 1,
+    "question_prefix": "What type of models are REALM and ORQA, and how do"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 30,
+    "score": 0,
+    "question_prefix": "What is the percentage of improvement FEVER fact v"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 31,
+    "score": 2,
+    "question_prefix": "What challenges do Large Language Models (LLMs) en"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 32,
+    "score": 3,
+    "question_prefix": "How does Retrieval-Augmented Generation (RAG) enha"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 33,
+    "score": 3,
+    "question_prefix": "How many RAG research paradigms does the paper sum"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 34,
+    "score": 0,
+    "question_prefix": "What are the three main components of RAG framewor"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 35,
+    "score": 2,
+    "question_prefix": "What are the future directions for RAG emphasized "
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 36,
+    "score": 2,
+    "question_prefix": "What is the name of the framework introduced to en"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 37,
+    "score": 2,
+    "question_prefix": "How does SELF-RAG differ from conventional RAG in "
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 38,
+    "score": 0,
+    "question_prefix": "What are the two categories of reflection tokens u"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 39,
+    "score": 2,
+    "question_prefix": "How does SELF-RAG provide citations for each segme"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 40,
+    "score": 2,
+    "question_prefix": "On how many tasks did SELF-RAG demonstrate signifi"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 41,
+    "score": 2,
+    "question_prefix": "What is Sentence-BERT (SBERT)?"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 42,
+    "score": 1,
+    "question_prefix": "How much time does finding the most similar pair i"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 43,
+    "score": 2,
+    "question_prefix": "What is the time reduction for finding the most si"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 44,
+    "score": 0,
+    "question_prefix": "Which tasks can SBERT be used for that were not ap"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 45,
+    "score": 2,
+    "question_prefix": "How much improvement does SBERT achieve on seven S"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 46,
+    "score": 2,
+    "question_prefix": "What are Graph Attention Networks (GATs)?"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 47,
+    "score": 2,
+    "question_prefix": "How many datasets did GAT models achieve or match "
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 48,
+    "score": 2,
+    "question_prefix": "What are the two main categories of advances in ge"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 49,
+    "score": 2,
+    "question_prefix": "What are the challenges of non-spectral approaches"
+  },
+  {
+    "config": "No-RAG",
+    "q_num": 50,
+    "score": 0,
+    "question_prefix": "What are the three properties of the attention arc"
+  }
+]
